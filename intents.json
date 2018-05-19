@@ -1,0 +1,268 @@
+{"intents": [
+		    {"tag": "MANIT location",
+         "patterns": ["Where is Manit Located?", "What is the Location of Manit?", "Where we can find Manit?","what is address of Manit?"],
+         "responses": ["Link Road Number 3, Near Kali Mata Mandir", "Maulana Azad National Institute of Technology (MANIT), Bhopal, M.P. India"," Link Road Number 3, Near Kali Mata Mandir, Bhopal, Madhya Pradesh, India 462003 , Telephone : +91 755 4051000, 4052000, 2670900 FAX : +91-755 2670562"],
+         "context_set": ""
+        },
+        { "tag": "Admission",
+          "patterns": ["How I can get Admission in Manit?","What is the procedure to get admission in Manit?","Which Exam I shuold give to get admission in Manit?"],
+          "responses": ["MANIT BHOPAL is one but of the primier institute of national importance in INDIA, alike IIT's and other NIT's one has to seat for a national level entrance exam primarily knows as JEE. JEE is conducted all over India and has two different level of exams one is JEE MAINS another is JEE ADVANCE.","If you belong to general category you can not."],
+          "context_set": ""
+        },
+        { "tag": "Infrastructure" ,
+          "patterns": ["How big Manit is, area wise?","what is the Infrastructure of Manit?","How Manit looks?"],
+          "responses": ["The mesmerizing all-embracing campus is of 650 acres, encompassed by boundary wall and ring road. The infrastructure of campus consists of administrative and academic buildings, workshops, community centre and residential area for accommodation of students and staff. Besides general infrastructure it includes elementary amenities such as post office, shopping complex, a school for children, dispensary, a campus temple, an auditorium with capacity of seating thousand people and sports complex with vast stretches of open area."],
+          "context_set": ""
+        },
+        { "tag": "Academic section",
+          "patterns": ["where is Manit's Academic section Located"],
+          "responses": ["It's in the main building near porch"],
+          "context_set": ""
+        },
+        { "tag": "Courses Offered",
+          "patterns": ["What are courses currently offered by Manit?","What are different courses offered in Manit?"],
+          "responses": ["Manit offers Computer Science Engg.,Electrical Engg.,Electronic and Communication Engg.,Mechanical Engg.,Chemical Engg.,Civil Engg. etc and for further information please visit http://www.manit.ac.in"],
+          "context_set": "" 
+        },
+        {
+        	"tag" : "SAC",
+        	"patterns" : ["What is SAC in MANIT?","where is SAC located in Manit?"],
+        	"responses" :  ["SAC stands for Student Activity Centre and is located nearby Manit Porch"],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "Boys Hostel",
+        	"patterns" : ["where is Hostel Number 10 located?","where is Hostel Number 9 located?","where is Hostel Number 8 located?","where is Hostel Number 6 located?","where is Hostel Number 5 located?","where is Hostel Number 4 located?","where is Hostel Number 3 located?","where is Hostel Number 2 located?","where is Hostel Number 1 located?"],
+        	"responses": ["All boys Hostel are located nearby dispensary"],
+        	"context_set": ""
+        },
+        {
+        	"tag" : "Hostel 7",
+        	"patterns" : ["What is the location of  MANIT Girls Hostel?","Where Girls Hostel is located in MANIT?"],
+        	"responses" :  ["Girls Hostel is Located near Shopping complex", "Girls Hostel is located near General Store","Near Faculties House"],
+        	"context_set": ""
+
+        },
+        {
+        	"tag" : "Bank",
+        	"patterns" : ["Where is Bank located in Manit?"],
+        	"responses" : ["Manit Bank is loacted near Architecture Dept.","Manit Bank is Located near Computer Science Dept."],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "Post office",
+        	"patterns" : ["Where is Manit Post Office is located?","Where is Manit post office?"],
+        	"responses": ["Manit Post office is located near Computer Scoence Dept.","Manit Post Office is located near SBI.","It is nearby Architecture Dept."],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "CCOAT",
+        	"patterns" : ["What is CCOAT ?","Where CCOAT is located?"],
+        	"responses" : ["CCOAT stands for Computer Center Open Air Theatre and is located at Computer Science Dept."],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "EEOAT",
+        	"patterns" : ["what is EEOAT?","Where EEOAT is located?"],
+        	"responses" : ["EEOAT stands for Electrical Engg. Open Air Theatre and is located at Electrical dept."],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "NTB",
+        	"patterns" : ["What is NTB?","Where NTB is located?"],
+        	"responses" : ["NTB stands for New Teaching Block and is located in front of SBI Ground"],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "dispensary",
+        	"patterns" : ["Where is dispensary located in Manit?"],
+        	"responses" : ["MANIT dispensary is located nearby Energy Centre and in front of Hostel Number - 1"],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "Energy centre",
+        	"patterns" : ["Where is Energy Centre located in Manit?"],
+        	"responses" : ["Energy Centre is located near new Chemical dept."],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "ROLTA" ,
+        	"patterns" : ["Where is Rolta located in Manit?"],
+        	"responses" : ["Rolta is located near Manit Porch"],
+        	"context_set" : "" 
+        },
+        {
+        	"tag" : "COE" ,
+        	"patterns" : ["What is COE?","Where is COE Located?"],
+        	"responses" : ["COE stands for Centre of examination and it is located at New director office","COE stands for centre of examination and is located nearby AMUL"],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "Library" ,
+        	"patterns" : ["Where  MANIT Library is Located?","where is MANIT Library?"],
+        	"responses" : ["MANIT Library is located inside the Teaching Block of Manit near vicinity of EEOAT. Inorder to issue book from Library, student must bring ID card along with their Library card. If you don't have Library card,then get the form shopping complex for Library card and fill it and submit it in  Library, Within 2-3 Days you will get your Library card from Library itself and then you can issue any book from Library."],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "sports" ,
+        	"patterns" : ["where sports complex is located in MANIT?"],
+        	"responses" : ["It is located behind NRI Hostel","Towards the right hand side of Energy Centre","It is located in front of Hostel Number - 1"],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "lab" ,
+        	"patterns" : ["what is the loaction of chemistry Lab?","what is the location of Physics Lab?"],
+        	"responses" : ["chemistry Lab is Located in the ground floor of Teaching Block of Admin and Physics Lab is located on the first floor of Humanity dept."],
+        	"context_set" : ""
+        },
+
+         {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "Manit",
+         "patterns": ["What is Manit?", "How is manit?", "What is the full form of manit?" ],
+         "responses": ["MANIT stands for Maulana Azad National Institute Of Technology.", "Maulana Azad National Institute of Technology (MANIT Bhopal), also known as National Institute of Technology, Bhopal (NIT Bhopal, NIT-B), formerly Maulana Azad College of Technology (MACT) and Regional Engineering College Bhopal, is an Institute of National Importance under the NIT Act in Bhopal, Madhya Pradesh, India. It is part of the group of publicly funded institutions in India known as National Institute of Technology."]
+        },
+        {"tag": "MACT",
+         "patterns": ["What is MACT?","How is manit?", "What is the full form of manit?" ],
+         "responses": ["MACT is another name for MANIT. MANIT stands for Maulana Azad National Institute Of Technology.", "MACT is another name for MANIT. Maulana Azad National Institute of Technology (MANIT Bhopal), also known as National Institute of Technology, Bhopal (NIT Bhopal, NIT-B), formerly Maulana Azad College of Technology (MACT) and Regional Engineering College Bhopal, is an Institute of National Importance under the NIT Act in Bhopal, Madhya Pradesh, India. It is part of the group of publicly funded institutions in India known as National Institute of Technology."]
+        },
+        {"tag": "Internship",
+         "patterns": ["What is internship scenario?", "What is the condition of students for intern?" ],
+         "responses": ["On an average a good number of students do get intern.", "An internship is an essential step to launching our career. Students look for an internship based on their major, or a particular industry category, to gain relevant career experience." ]
+        },
+        {"tag": "Placement",
+         "patterns": ["What is placement scenario?", "What is the condition of placement in manit?", "Are all students placed?" ],
+         "responses": ["Over 145 companies participate in the placement process every year. The average compensation during the current year is over 7.0 LPA and the highest ever being around 1.1 crore per annum.", " With an increasing trust being placed on Institute-Industry interaction, it is my sincere belief that our esteemed organization and NIT Bhopal stand to gain immensely from the symbiotic relationship and thus have a good placement record." ]
+        },
+        {"tag": "Exam",
+         "patterns": ["When are the exams?", "What is the time table for the exam?", "Where is the centre for the exam?", "When is mini test?", "When is midterm exam?", "When is endterm exam?" ],
+         "responses": ["Usually for odd semesters mini test, mid term and end term are held in the month of September, October and November respectively. For even semesters mini test, mid term and end term are held in the month of February, March and April respectively. Once date is announced, further information will be provide subsequently." ]
+        },
+        {"tag": "shopping",
+         "patterns": ["Where is the nearest shop?", "From where can we buy daily needed stuff?", "Where is the nearest store?" ],
+         "responses": ["For daily needed stuff reach general store or shopping complex.", "For daily needed stuff reach mata mandir." ],
+         "context_filter": "shopping"
+        },
+        {"tag": "visit",
+         "patterns": ["Where can we visit?", "Where is the nearest place to entertain?", "Where is the nearest place to enjoy?" ],
+         "responses": ["Steeped in rich history and an intriguing past, Bhopal, the capital city of Indian state of Madhya Pradesh, is a true paradise for historians, archaeologists, art & architecture patrons and off-course, curious travellers. Dotted with ancient monuments, historical palaces, religious shrines and numerous museums that speak out the tales of bygone times, the place tops the list of tourism destinations in Central India. While needless to say, the city is a treasure trove of historical and archaeological sites, there are many recreational activities and things to do for even casual holiday seekers." ]      
+        },
+        {"tag": "holidays",
+         "patterns": ["When are the holidays?", "When are the classes off?" ],
+         "responses": ["There are 5 working days and Saturday and Sunday are holidays. For more holidays, refer institute calender." ]
+        },
+        {
+         "tag": "transportation",
+         "patterns": ["What is the transportation facility?" ],
+         "responses": ["Students ride their private vehicle. Cab can leave you at your doorstep inside manit." ]
+        },
+        {
+         "tag": "Department",
+         "patterns" : ["What are the departments?", "How many different departments are there?" ],
+         "responses" : ["There are mainly 5 departments namely Engineering, Architecture and Planning , Management studies, science and humanities." ]
+        },
+
+         {"tag": "socities",
+        "patterns": ["Which are the various socities in MANIT?", "Which are the various clubs in MANIT?", "Socities active in MANIT", "Clubs active in MANIT"],
+        "responses": ["Indian Society for Technical Education (ISTE), Institute of Electrical and Electronics Engineering (IEEE), Vision, AZAD, Rajbhasha Samiti, Intellect Browsers' Consortium (IBC), Drishtant, ROOBAROO are some of the active clubs or socities in MANIT"],
+        "context_set": ""
+
+        },
+
+        {"tag": "technical socities",
+        "patterns": ["Which are the various technical socities in MANIT?", "Which are the various technical clubs in MANIT?", "Technical socities active in MANIT", "Technical clubs active in MANIT"],
+        "responses": ["Vision, AZAD, Robocon, SAE MANIT etc. are the prominent technical socities in MANIT"],
+        "context_set": ""
+
+        },
+
+        {"tag": "management socities",
+        "patterns": ["Which are the various mangement socities in MANIT?", "Which are the various management clubs in MANIT?", "Management socities active in MANIT", "Management clubs active in MANIT"],
+        "responses": ["Indian Society for Technical Education (ISTE), Institute of Electrical and Electronics Engineering (IEEE) are some of the active management clubs or socities in MANIT"],
+        "context_set": ""
+
+        },
+
+        {"tag": "technical fest",
+        "patterns": ["Which is the annual tech fest of MANIT?", "Technical fest of MANIT", "Techfest of MANIT"],
+        "responses": ["TechnoSearch is the annual tech fest of MANIT which boasts a number of skill oriented technical events."],
+        "context_set": ""
+
+        },
+
+        {"tag": "cultural fest",
+        "patterns": ["Which is the annual cultural fest of MANIT?", "Cultural fest of MANIT"],
+        "responses": ["MAFFICK is the annual cultural fest of MANIT which boasts a number of cultural events including performances from famous personalities in the field of entertainment."],
+        "context_set": ""
+
+        },
+        {
+          "tag" : "Director",
+          "patterns" : ["Who is the director of Manit?","Director of Manit?"],
+          "responses" : ["Dr. NS Raghuwanshi is the director of Manit"],
+          "context_set" : ""
+
+        },
+        {
+          "tag" : "Director office",
+          "patterns" : ["what is the location of Director office?","where is Director office?"],
+          "responses" : ["Director office is Located inside Administration Block on the first floor"]
+        },
+        {
+          "tag" : "close time hostel 7",
+          "patterns" : ["what is closing time of hostel 7?","h7 closing time?"],
+          "responses" :["9:30 is closing time of H7."],
+          "context_set" : ""
+        },
+        {
+        	"tag" : "HOC" ,
+        	"patterns" : ["where is HOC ?","Hoc?"],
+        	"responses" : ["HOC stands for High Octane Cafe and is located at shopping complex"],
+        	"context_set" : ""
+        },
+        {
+        	"tag" : "Chemical",
+        	"patterns" : ["where is Chemical Department?"],
+        	"responses": ["It is Located in front of chemical Department"],
+        	"context_set" : ""
+        },
+        {
+          "tag" : "workshop" ,
+          "patterns" : ["where is workshop located in MANIT?"],
+          "responses" : ["It located at Mechanical Department"],
+          "context_set" : ""
+        },
+        {
+          "tag" : "HOD",
+          "patterns" : ["who is HOD of CSE Department?"],
+          "responses" : ["HOD of CSE : MEENU CHAWLA MAM"]
+        },
+        {
+          "tag" : "information" ,
+          "patterns" : ["How can I get more information about manit?"],
+          "responses" : ["visit MANIT website for more information about MANIT/MACT"]
+        },
+        {
+          "tag" : "Architecture",
+          "patterns" : ["what is the location of Architecture department?","where is architecture Department?"],
+          "responses" : ["architecture Department is located near SBI MANIT"]
+        },
+        {
+          "tag" : "Mechanical",
+          "patterns" : ["where is Mechanical Department located?","what is the location of Mechanical departments?"],
+          "responses" : ["Mechanical Department is located near SBI Ground"]
+        }
+    ]
+}
+
